@@ -83,7 +83,7 @@ DATABASES = {
    }
 }
 
- DATABASES = {
+DATABASES = {
       'default': {
           'ENGINE': 'mssql',
           'NAME': 'free-sql-db-0009093',
