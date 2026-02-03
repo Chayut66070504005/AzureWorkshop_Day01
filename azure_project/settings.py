@@ -83,21 +83,20 @@ DATABASES = {
    }
 }
 
-DATABASES = {
-      'default': {
-          'ENGINE': 'mssql',
-          'NAME': 'free-sql-db-0009093',
-          'USER': 'aum-admin',
-          'PASSWORD': 'P@ss1234',
-          'HOST': 'aum-sql.server.database.windows.net',
-          'PORT': '1433',
-          'OPTIONS': {
-              'driver': 'ODBC Driver 18 for SQL Server',
-              'extra_params': 'Encrypt=yes;TrustServerCertificate=yes;Connection Timeout=30;',
-          },
-      },
-  }
-
+# DATABASES = {
+#      'default': {
+#          'ENGINE': 'mssql',
+#          'NAME': 'free-sql-db-0009093',
+#          'USER': 'aum-admin',
+#          'PASSWORD': 'P@ss1234',
+#          'HOST': 'aum-sql.server.database.windows.net',
+#          'PORT': '1433',
+#          'OPTIONS': {
+#              'driver': 'ODBC Driver 18 for SQL Server',
+#              'extra_params': 'Encrypt=yes;TrustServerCertificate=yes;Connection Timeout=30;',
+#          },
+#      },
+#  }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
